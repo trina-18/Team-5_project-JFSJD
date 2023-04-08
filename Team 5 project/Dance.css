@@ -1,0 +1,141 @@
+body {
+	font-size: 20px;
+	margin: auto;
+	padding: auto;
+  text-decoration: none;
+  background:url("https://raw.githubusercontent.com/SayanHati1998/Team-5_project-JFSJD/a2e7dda546f7ddba0115b063a7c1ebd60b4f8505/Danceback.jpg");
+  background-size:cover ;
+  background-repeat:no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden ;
+  overflow-y: hidden;
+}
+ #slogan {
+  position: relative;
+  top: -100px;
+  left:200px;
+  font-size: 40px;
+	font-weight: 1000;
+	text-transform:capitalize;
+	background: linear-gradient(to left, #ed0505 0%, #d9fa00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 15px #ff1e00;
+  font-family: "Sofia", sans-serif;
+  font-style: oblique;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+	font: {
+		size: 40vw;
+		family: $font;
+		text-shadow: 0 1px 3px #000000, 0 1px 5px #ffffff;
+	  };
+	}
+
+div img{
+	position: relative;
+	top: -3px;
+	right: 1px;
+	height: auto;
+	width: 6.5%;
+ 
+}
+.navbar {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  top: -150px;
+  left: 1100px;
+  background-color: transparent;
+  padding-right: 0%;
+  display: flex;
+}
+.navbar a {
+  float:right;
+  color: rgb(202, 11, 11);
+    font-weight: bold;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+.navbar a:hover {
+  background: linear-gradient(to left, #000000 10%, #e00909 80%);
+  color:rgb(239, 239, 239);
+  border-radius: 50% 20% /50%;
+}
+.nataraj {
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  height: 1900px;
+  width: 1900px;
+}
+.hi-slide {
+  position: relative;
+  width:754px;
+  height:292px;
+  border-radius: 50px;
+  margin: 115px auto 0;
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: relative;
+  top: 50%;
+  width: 50px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background:linear-gradient(to left ,red 0%, black);
+  color: rgb(237, 235, 235);
+  transition: all 0.7s;
+  font-size: 30px;
+  font-weight: 700;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+  opacity:1;
+  background-color: white;
+}
+.hi-slide .hi-prev{ left: -60px;}
+
+.hi-slide .hi-prev::before{
+  content: '<';
+}
+.hi-slide .hi-next{
+  right: -780px;
+}
+.hi-slide .hi-next::before{
+  content: '>';
+}
+.hi-slide > ul{
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+}
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 5px;
+  border-color: linear-gradient(to right, red 100%,rgb(225, 223, 223) 0%);
+  cursor: pointer;
+  background-color: #333;
+}
+.hi-slide > ul > li > img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
