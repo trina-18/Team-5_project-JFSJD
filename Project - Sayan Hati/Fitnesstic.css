@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+	--primary-color: #d63031;
+	--secondary-color: #636e72;
+	--font: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.btn{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: var(--primary-color);
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: .3s;
+	cursor: pointer;
+}
+.btn:hover{
+	background: transparent;
+}
+body{
+	background: black;
+	font-family: var(--font);
+}
+
+nav{
+	position:static;
+	width: 100vw;
+	height: 60px;
+	border-top: .5rem solid var(--primary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999999;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 15%;
+	font-weight: 700;
+	background: var(--primary-color);
+}
+
+.logo::before{
+	content: "Fitness ";
+	color: white;
+}
+.logo::after{
+	content: " Aroma";
+	color: black;
+}
+font{
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #ffffff 0%, #dc0000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 40vw;
+		family: $font;
+		text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+	  };
+	}
+
+
+ul{
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+ul a{
+	text-decoration: none;
+	color: rgb(255, 8, 8);
+	margin: 0 2rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	font-weight: 700;
+	font-size: 16px;
+	text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+}
+ul li{
+	list-style: none;
+}
+ul a:hover{
+	color: var(--primary-color);
+}
+
+.banner{
+	background: url("https://github.com/SayanHati1998/Team-5_project-JFSJD/blob/main/pexels-cottonbro-studio-4325466.jpg?raw=true");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:local;
+	height: 100vh;
+}
+
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+}
+
+.intro h2,p{
+	display: block;
+	width: 60%;
+}
+
+.intro h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.intro .btn{
+	margin-top: 2rem;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+.card1,.card2, .card3 {
+	width: 33.3%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.card1 {
+	background-image:url("https://c.ndtvimg.com/2020-05/f9ecc7fo_cardio-650_625x300_12_May_20.jpg") ;
+	
+	background-position: center;
+	justify-content: center;
+ 	max-width: 100%;
+	 text-transform: uppercase;
+	 font-size: 20px;
+	 color: #060606;
+	 font-weight: 700;
+	 font-family: Georgia, 'Times New Roman', Times, serif;
+	box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.card1 p {
+	font-size: 15px;
+	color: #ff0000;
+}
+
+.card2 {
+	background-image:url("https://t3.ftcdn.net/jpg/05/62/71/86/240_F_562718625_BM93noP9JDAR8kiBPfRy0h4WTvUwYXNH.jpg") ;
+	
+	background-position: center;
+	justify-content: center;
+	max-width: 100%;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #060606;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+	background-size: 100% auto;
+	box-shadow: 10px 10px 5px rgb(255, 255, 255);
+	
+}
+.card3 {
+	background-image:url("https://t3.ftcdn.net/jpg/01/41/86/02/240_F_141860204_UWGjTQLGs0feOoBojJ5NLVpeJUL8TFMn.jpg") ;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	max-width: 100%;
+	font-size: 20px;
+	color: #060606;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;	
+	background-size: 100% auto;
+	box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
