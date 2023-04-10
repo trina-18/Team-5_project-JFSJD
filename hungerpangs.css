@@ -1,0 +1,167 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+	font-size: 20px;
+	line-height: 1;
+	color: #31e19aee;
+	margin: 0;
+	padding: 0;
+   
+  
+  }
+  div img{
+    height: 500px;
+    position: relative;
+    
+    
+    
+    width: 100%;
+  } 
+ nav ul{
+  float: right;
+  margin-right: 20px;
+  }
+  nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+  }
+  nav ul li:hover{
+  background-color:rgb(116, 29, 29);
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: rgba(99, 190, 202, 0.862);
+  padding: 12px;
+  display: block;
+  }
+  #belownav
+  {
+    width: 100%;
+    height: 15px;
+    background-color: rgba(132, 54, 3, 0.805);
+  }
+  #navbar{
+    position: absolute;
+    top: 0%;
+    left: 22%;
+  }
+  #heading{
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      font-family:'Orbitron', cursive ;
+      font-size: xx-large;
+      
+      color: rgb(195, 229, 228);
+      background-color: rgba(161, 96, 70, 0.473);
+      display: ruby-base;
+  }
+  #textin::before{
+    content: "Hunger";
+    color: rgba(248, 248, 248, 0.953);
+  }
+  #textin::after{
+    content: "pangs";
+    color: gold;
+  
+  }
+  #sub{
+    font-family: 'Alkatra';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alkatra/v3/r05bGLZA5qhCYsyJRO2J5wok.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+  font-size: x-large;
+  text-align: center;
+}
+
+  #subtextin::before{
+
+    content: "भूख के समान कोई";
+    color: azure;
+
+  }
+  #subtextin::after{
+    content: " दूसरा शत्रु नहीं है";
+    color: gold;
+  }
+
+  * {
+    box-sizing: border-box
+  }
+      
+  
+  
+  .images {
+    display: none
+  }
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(230, 220, 220);
+    background: rgba(0, 0, 0, 0.3);
+    height: 35px;
+  }
+  
+  img {
+    vertical-align: middle;
+    width:100%;
+  }
+  
+  /* Slideshow container */
+  .carousel-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .previous, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit seethrough */
+  .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .navigation-dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+  }
+  .active, .navigation-dot:hover {
+     background-color: #717171;
+  }
+  
