@@ -3,6 +3,7 @@ body {
 	margin: auto;
 	padding: auto;
   text-decoration: none;
+  background-image: radial-gradient(circle, #0e97aa, #0089bc, #4975c0, #8557aa, #a9317b, #a12749, #882e20, #673500, #3c3400, #1a2c0a, #061f13, #010e0d);
     background-size:cover ;
   background-repeat:no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,14 +11,105 @@ body {
 }
 .about {
     width:100%;
-    padding: 100px 0px;
-    background-color: #191919;
+    height: 100%;
+   
     }
 
 .about img {
+    display: block;
     height:auto;
-    width: 430px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
-.about-text {
-    width:550px;
+.about-text p {
+    width:auto;
+    font-weight: 500;
+    font-size: 25px;
+    color: beige;
+    font-family: 'Dancing Script';
+    text-align: center;
 } 
+.about-text h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: Gray;
+    text-shadow: 4px 4px black;
+    margin-top: 80px;
+}
+figure {
+    height: auto;
+    width: 15%;
+ 
+}
+figure img {
+    border-radius: 0 50% 50% 50% ;
+    border: thick silver solid;
+   
+}
+#name{
+    bottom: 150px;
+    left: 250px;
+    position: relative;
+    color: black;
+     padding: 3px;
+     text-shadow: 2px 1px white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 25px;
+    font-weight: 600;
+}
+
+.fa {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    top:-60px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+.defi {
+    position: relative;
+    width: 550px;;
+    font-weight: 700;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#8b8484, #ebe5e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 1px black;
+    font-family: 'Dongle';
+    float:right;
+    top:-360px;
+}
