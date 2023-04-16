@@ -7,13 +7,12 @@ body {
   background-size:cover ;
   background-repeat:no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow-x: hidden ;
-  overflow-y: hidden;
+  overflow:hidden;
 }
  #slogan {
   position: relative;
-  top: -100px;
-  left:200px;
+  top: -80px;
+  left:180px;
   font-size: 40px;
 	font-weight: 1000;
 	text-transform:capitalize;
@@ -31,7 +30,61 @@ body {
 		text-shadow: 0 1px 3px #000000, 0 1px 5px #ffffff;
 	  };
 	}
+.descrip p{
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  background: linear-gradient(to left, #ed0505 0%, #d9fa00);
+  text-align: center;
+  text-transform:uppercase;
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
+}
+.border {
+  align-items: center;
+  position:relative;
+  width:750px;
+  height: 50p;
+  display: flex;
+  left:300px;
+  justify-content: center;
+  background:linear-gradient(to left, #ed0505 40%, #fad000);
+  border-radius: 80px;
+}
+
+.border:before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom:-2px;
+  background: transparent;
+  z-index: -1;
+}
+
+.border:after{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  right: -2px;
+  bottom:-2px;
+  background: #53ff03;
+  z-index: -2;
+  filter: blur(40px);
+}
+
+.border:before , .border:after {
+  background: linear-gradient(235 deg,#c1e304,#d400ff,#ff7e05);
+}
+
+.content{
+  padding: 20px;
+  box-sizing: border-box;
+  color:#fff;
+  font-family:  "Trirong", serif;
+}
 div img{
 	position: relative;
 	top: -3px;
@@ -40,12 +93,16 @@ div img{
 	width: 6.5%;
  
 }
+.img1{
+  position: relative;
+transform:rotate(90deg);
+}
 .navbar {
   position: relative;
   overflow: hidden;
   margin: 0;
-  top: -150px;
-  left: 1100px;
+  top: -250px;
+  left: 1000px;
   background-color: transparent;
   padding-right: 0%;
   display: flex;
@@ -76,7 +133,7 @@ div img{
   width:754px;
   height:292px;
   border-radius: 50px;
-  margin: 115px auto 0;
+  margin: -30px auto 0;
 }
 .hi-slide .hi-next,
 .hi-slide .hi-prev{
