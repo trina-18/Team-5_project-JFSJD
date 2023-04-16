@@ -26,12 +26,51 @@
 	</nav>
 	</div>
 	<div id="heading">
-		<h1>HUNGERPANGS</h1>
+		<h1 id="textin"></h1>
+		<div id="sub">
+		<h4 id="subtextin"></h4>
 	</div>
 	</header>
 	<hr id="belownav">
 	<main>
+		<div class="carousel-container">
+			<div class="slider-carousel">
+				<div class="images fade">
+				  <img src="https://cdn.pixabay.com/photo/2015/06/23/05/23/fresh-jalebi-818316_960_720.jpg" alt="food 1" />
+				  <div class="image-text">Jalebi-Indian Street Food</div>
+				</div>
+			  <div class="images fade">
+				  <img src="https://breathedreamgo.com/wp-content/uploads/2020/03/SS-dosa.jpg" alt="food 2" />
+				  <div class="image-text">South Indian Dosa</div>
+				</div>
+				<div class="images fade">
+				  <img src="https://breathedreamgo.com/wp-content/uploads/2020/03/Pixabay-gulab-jamun.jpg" alt="food 3" />
+				  <div class="image-text">Gulab Jamun- Famous Indian Desert</div>
+				</div>
+				<div class="images fade">
+				  <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2016/08/080816_KashiRam1.jpg?fm=webp&w=750&h=500&dpr=1" alt="food 4" />
+				  <div class="image-text">Ram ke Chhole Kulche- Delhi</div>
+				</div>      
+			  </div>
+			   
+			   <!-- Previous and Next Buttons -->
+			   <a class="previous" onclick="plusSlides(-1)">❮</a>
+			   <a class="next" onclick="plusSlides(1)">❯</a>
+		 </div>
+		 <br>
+		 
+		 <!-- Navigation Dots-->
+		 <div style="text-align:center">
+			<span class="navigation-dot" onclick="currentSlide(1)"></span>
+			<span class="navigation-dot" onclick="currentSlide(2)"></span>
+			<span class="navigation-dot" onclick="currentSlide(3)"></span>
+		 </div>
 		
+			
+			
+			
+		</div>
+		<script src="hungerpangs.js"></script>
 	</main>
 </body>
 </html>
