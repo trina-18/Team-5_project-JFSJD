@@ -1,0 +1,23 @@
+body {
+	font-size: 20px;
+	margin: auto;
+	padding: auto;
+  text-decoration: none;
+    background-size:cover ;
+  background-repeat:no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow:hidden;
+}
+.about {
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    }
+
+.about img {
+    height:auto;
+    width: 430px;
+}
+.about-text {
+    width:550px;
+} 
